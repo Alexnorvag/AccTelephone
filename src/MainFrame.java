@@ -45,7 +45,7 @@ public class MainFrame extends javax.swing.JFrame {
         String query;
         Statement stmt;
         try {
-            query = "CREATE TABLE phconver (" +
+            query = "CREATE TABLE mydbtest.phconver (" +
                     "  id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT," +
                     "  name VARCHAR(60) NOT NULL," +
                     "  date VARCHAR(45) NOT NULL," +
